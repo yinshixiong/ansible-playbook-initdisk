@@ -1,0 +1,13 @@
+---
+logicalvolumes: 
+  - name: vdb1
+
+diskName: /dev/vdb
+diskLvmVgParted: /dev/vdb1
+diskNumber: 1
+diskStartSize: 1KiB
+diskSize: 39.999GiB
+diskStatus: present
+mountPath: /data/
+
+mkfsForce: "True"

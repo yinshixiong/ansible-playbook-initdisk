@@ -1,0 +1,6 @@
+---
+ - hosts: init
+   remote_user: root
+   gather_facts: true
+   roles:
+     - roles/init_disk
